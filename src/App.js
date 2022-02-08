@@ -7,7 +7,14 @@ function App() {
     <div className="App">
       <main>
       <About></About>
+      {/* <Portfolio></Portfolio> */}
+      {/* <Contact></Contact> */}
+      {/* <Resume></Resume> */}
       </main>
+      <footer>
+        This is the footer!
+        {/* <Footer></Footer> */}
+      </footer>
     </div>
   );
 }
