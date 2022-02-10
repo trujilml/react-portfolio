@@ -7,18 +7,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav></Nav>
       <main>
       <About></About>
       <Contact></Contact>
       <Portfolio></Portfolio>
       {/* <Resume></Resume> */}
+      {/* Make it a link to resume pdf - refer older portfolio */}
+       {/* <Footer></Footer> */}
+        {/*  This is the footer! Make me as a seperate component. */}
       </main>
-      <footer>
-        This is the footer!
-        {/* <Footer></Footer> */}
-      </footer>
     </div>
   );
 }

@@ -31,6 +31,9 @@ function Nav() {
                     <li>
                         <span>Resume</span>
                     </li>
+                    <li>
+                        <span>Footer</span>
+                    </li>
                 </ul>
             </nav>
         </header>
