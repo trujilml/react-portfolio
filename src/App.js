@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
       <Nav></Nav>
       <main>
       <About></About>
+      <Contact></Contact>
       {/* <Portfolio></Portfolio> */}
-      {/* <Contact></Contact> */}
       {/* <Resume></Resume> */}
       </main>
       <footer>

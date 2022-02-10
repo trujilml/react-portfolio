@@ -18,8 +18,10 @@ function Nav() {
                         </a>
                         {/* remove clicked link asset */}
                     </li>
-                    <li>
+                    <li className="mx-2">
+                        <a href="#Contact">
                         <span>Contact</span>
+                        </a>
                     </li>
                     <li>
                         <span>Portfolio</span>
