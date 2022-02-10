@@ -23,8 +23,10 @@ function Nav() {
                         <span>Contact</span>
                         </a>
                     </li>
-                    <li>
+                    <li className = "mx-2">
+                        <a href="#Portfolio">
                         <span>Portfolio</span>
+                        </a>
                     </li>
                     <li>
                         <span>Resume</span>
