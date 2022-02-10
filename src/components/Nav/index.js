@@ -2,10 +2,10 @@ import React from 'react';
 
 function Nav() {
     return(
-        <header>
+        <header className = "flex-row px-1">
             <h2>
                 <a href="/">
-                    <span><h2 id ="name">Mekayla Trujillo</h2></span> 
+                    <h2 id ="name">Mekayla Trujillo</h2>
                     {/* remove clicked link asset */}
                 </a>
             </h2>
@@ -29,7 +29,7 @@ function Nav() {
                         </a>
                     </li>
                     <li className = "mx-2">
-                        <a href="#resume">
+                        <a href="#esume">
                         <span>Resume</span>
                         </a>
                     </li>
