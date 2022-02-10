@@ -69,7 +69,15 @@ function Contact() {
                     <li className="mx-2">
                     <a href="https://github.com/trujilml" title="GitHub Page"><i class="fab fa-github"></i> GitHub</a>
                     </li>
-                {/* add more contact links - refer original portfolio */}
+                    <li className="mx-2">
+                    <a href="https://www.linkedin.com/in/mekayla-trujillo-4149b4178/" title="LinkedIn Page"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </li>
+                    <li className="mx-2">
+                    <a href="https://codepen.io/trujilml21" title="CodePen Page"><i class="fab fa-codepen"></i> CodePen</a>
+                    </li>
+                    <li className="mx-2">
+                    <a href="https://stackoverflow.com/users/16589330/mickey" title="Stack Overflow Page"><i class="fab fa-stack-overflow"></i> Stack Overflow</a>
+                    </li>
                 </ul>
             </nav>
             

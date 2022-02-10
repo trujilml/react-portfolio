@@ -14,22 +14,24 @@ function Nav() {
                     {/* remove li button elements */}
                     <li className="mx-2">
                         <a href="#about">
-                            About
+                            <span>About</span>
                         </a>
                         {/* remove clicked link asset */}
                     </li>
                     <li className="mx-2">
-                        <a href="#Contact">
+                        <a href="#contact">
                         <span>Contact</span>
                         </a>
                     </li>
                     <li className = "mx-2">
-                        <a href="#Portfolio">
+                        <a href="#portfolio">
                         <span>Portfolio</span>
                         </a>
                     </li>
-                    <li>
+                    <li className = "mx-2">
+                        <a href="#resume">
                         <span>Resume</span>
+                        </a>
                     </li>
                 </ul>
             </nav>

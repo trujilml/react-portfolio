@@ -24,36 +24,16 @@ const Footer = () => {
 
     window.addEventListener('scroll', toggleVisible);
 
-//     const mybutton = document.getElementById("TopButton");
-
-//     // When the user scrolls down 20px from the top of the document, show the button
-//     window.onscroll = function() {scrollFunction()};
-
-//     function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//     } else {
-//     mybutton.style.display = "none";
-//     }
-// }
-
-// // When the user clicks on the button, scroll to the top of the document
-//     function topFunction() {
-//     document.body.scrollTop = 0; // For Safari
-//     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-// }
-
     return (
     <footer>
     <p>Coded by <a href="https://github.com/trujilml" class="gitportfolio">Mekayla Trujillo</a></p> 
+    <p>&copy;2022 - All Rights Reserved.</p>
     <br />
     <Button>
         <FaArrowCircleUp onClick={scrollToTop}
         style={{display: visible ? 'inline' : 'none'}} />
     </Button>
-    {/* <button onclick={topFunction} class="TopButton" title="Go to top of the page" placeholder="Return to top page">TOP</button> */}
     <br />
-    <p>&copy;2021 - All Rights Reserved.</p>
     </footer>
     );
 }

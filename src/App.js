@@ -3,6 +3,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -14,9 +15,8 @@ function App() {
       <About></About>
       <Contact></Contact>
       <Portfolio></Portfolio>
-      {/* <Resume></Resume> */}
-      {/* Make it a link to resume pdf - refer older portfolio */}
-       <Footer></Footer>
+      <Resume></Resume>
+      <Footer></Footer>
       </main>
     </div>
   );
