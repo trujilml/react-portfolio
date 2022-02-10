@@ -3,6 +3,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
       <Portfolio></Portfolio>
       {/* <Resume></Resume> */}
       {/* Make it a link to resume pdf - refer older portfolio */}
-       {/* <Footer></Footer> */}
-        {/*  This is the footer! Make me as a seperate component. */}
+       <Footer></Footer>
       </main>
     </div>
   );
