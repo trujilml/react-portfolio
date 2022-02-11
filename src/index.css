@@ -71,6 +71,21 @@ nav li {
   cursor: pointer;
 }
 
+/* about section */
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#avatar {
+  max-height: 375px;
+  border-radius: 55px;
+  }
+
+
 /* footer */
 .footer {
   display: flex;
