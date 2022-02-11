@@ -34,12 +34,16 @@ body {
   background-color: #fef9fb;
 }
 
-header {
+/* header {
   display: flex;
   text-align: center;
   background-color: #f1c3d5;
-}
+} */
 
-header a {
+/* header a {
   color: #e6709b;
+} */
+
+li {
+  list-style: none;
 }
