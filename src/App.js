@@ -1,27 +1,25 @@
 import React from 'react';
-// import About from './components/About';
-// import Nav from './components/Nav';
-// import Contact from './components/Contact';
-// import Portfolio from './components/Portfolio';
-// import Resume from './components/Resume';
+// import Header from './components/Header'; 
 import Footer from './components/Footer';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
-// keep as reference to reinstall fontawesome fonts
+import Nav from "./components/Nav"; 
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      {/* <Nav></Nav> */}
       <main>
-      {/* <About></About>
-      <Contact></Contact>
+      {/* <Header></Header> */}
+      <Nav></Nav>
+      <About></About>
       <Portfolio></Portfolio>
-      <Resume></Resume> */}
+      <Contact></Contact>
+      <Resume></Resume>
       <Footer></Footer>
       </main>
-    </div>
   );
 }
 
