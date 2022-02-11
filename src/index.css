@@ -49,7 +49,7 @@ li {
   align-items: center;
 } 
 
-a {
+a, p {
   list-style: none;
   text-decoration: none;
 }
@@ -85,7 +85,6 @@ nav li {
   border-radius: 55px;
   }
 
-
 /* footer */
 .footer {
   display: flex;
@@ -96,4 +95,17 @@ nav li {
 footer p {
   text-align: center;
   font-size: 0.80em;
+  text-decoration: none;
+  list-style: none;
 }
+
+footer a {
+  text-decoration: none;
+  list-style: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #212529;
+}
+
