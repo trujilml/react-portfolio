@@ -85,6 +85,21 @@ nav li {
   border-radius: 55px;
   }
 
+  /* resume */
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.resume a {
+  text-decoration: none;
+  list-style: none;
+  color: #212529;
+}
+
 /* footer */
 .footer {
   display: flex;
@@ -109,3 +124,8 @@ a:hover {
   color: #212529;
 }
 
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

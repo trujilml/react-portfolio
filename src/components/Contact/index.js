@@ -36,7 +36,7 @@ function Contact() {
 
     return(
         <section>
-            <h1 id="contact">Contact Me</h1>
+            <h2 id="contact">Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -58,7 +58,7 @@ function Contact() {
                 </div>
             </form>
 
-            <h2 id = "contactlinks">
+            {/* <h2 id = "contactlinks">
             Where I am at
             </h2>
             <nav>
@@ -79,7 +79,8 @@ function Contact() {
                     <a href="https://stackoverflow.com/users/16589330/mickey" title="Stack Overflow Page"><i class="fab fa-stack-overflow"></i> Stack Overflow</a>
                     </li>
                 </ul>
-            </nav>
+            </nav> */}
+            {/* original contact links - remove prior to completion */}
             
 
         </section>

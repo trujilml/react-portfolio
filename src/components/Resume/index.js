@@ -6,11 +6,12 @@ import pdf from './Trujillo-resume-2022.pdf';
 
 function Resume() {
     return (
-       <div>
-        <h1 id="resume">Resume</h1>
-        <FontAwesomeIcon icon={solid ('file')} size="l"/>
-        <a href = {pdf}>Download Resume</a>
+       <div className="resume">
+        <h2>Resume</h2>
+        <br />
+        <p><a href = {pdf}> Download Resume  <FontAwesomeIcon icon={solid ('file')} /></a></p>
         </div> 
+        // list proficiencies in programs here
     );
 }
 
