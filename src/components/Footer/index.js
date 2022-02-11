@@ -26,7 +26,8 @@ const Footer = () => {
 
     return (
     <footer>
-    <p>Coded by <a href="https://github.com/trujilml" class="gitportfolio">Mekayla Trujillo</a></p> 
+    <p>Coded by Mekayla Trujillo</p> 
+    {/* have to include additional links including github and linked in here on footer */}
     <p>&copy;2022 - All Rights Reserved.</p>
     <br />
     <Button>

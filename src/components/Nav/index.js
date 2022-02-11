@@ -1,52 +1,63 @@
 import React from 'react';
-// import Navbar from 'react-bootstrap/Navbar'
 import { Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 
 function Nav() {
     return(
-        <div className="main-nav">
-            <Navbar expand="lg" bg="light" sticky="top">
-            <Navbar.Brand href="/">Mekayla Trujillo</Navbar.Brand>
+        <div className="top-nav">
+            <Navbar expand="xxl">
+            <Navbar.Brand href="/">
+                Mekayla Trujillo
+            </Navbar.Brand>
 
-            <div className="topnav-right">
+                <ul class="navbar-nav"> 
+                <li class="nav-item">
                 <NavLink
-                    activeClassName="navbar_link--active"
-                    className="navbar_link"
-                    to="/about"
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="about"
                 >
-                About
+                <div class="text-dark"> About </div>
                 </NavLink>
+                </li>
+                <br></br>
 
-
+                <li class="nav-item">
                 <NavLink
-                    activeClassName="navbar_link--active"
-                    className="navbar_link"
-                    to="/portfolio"
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="portfolio"
                 >
-                Portfolio
+                <div class="text-dark"> Portfolio </div> 
                 </NavLink>
-
+                </li>
+                <br></br>
+               
+                <li class="nav-item">
                 <NavLink
-                    activeClassName="navbar_link--active"
-                    className="navbar_link"
-                    to="/contact"
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="contact"
                 >
-                Contact
+                 <div class="text-dark"> Contact</div>
                 </NavLink>
+                </li>
+                <br></br>
 
+                <li class="nav-item">
                 <NavLink
-                    activeClassName="navbar_link--active"
-                    className="navbar_link"
-                    to="/resume"
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to="resume"
                 >
-                Resume
+                 <div class="text-dark"> Resume </div>
                 </NavLink>
+                </li>
 
-            </div>
+                   </ul>
             </Navbar>
-        </div>
+        </div> 
     );
 }
 

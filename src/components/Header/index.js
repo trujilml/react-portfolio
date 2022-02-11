@@ -13,7 +13,7 @@ function Header() {
           <Nav />
         <Switch>
             <Route exact path="/">
-                <Redirect to ="/about" />
+                <Redirect to ="about" />
             </Route>
         <Route path="/about">
             <About />

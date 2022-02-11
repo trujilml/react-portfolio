@@ -31,19 +31,22 @@ html {
 }
 
 body {
-  background-color: #fef9fb;
+  background-color: #ffffff;
 }
-
-header {
-  display: flex;
-  text-align: center;
-  background-color: #f1c3d5;
-}
-
-/* header a {
-  color: #e6709b;
-} */
 
 li {
   list-style: none;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
 }
