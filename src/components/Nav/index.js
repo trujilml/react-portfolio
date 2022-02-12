@@ -7,13 +7,11 @@ function Nav() {
     return(
         <div className="top-nav">
             <Navbar expand="xl" sticky="top">
-            {/* <Navbar.Brand href="/">  */}
             <NavLink className = "nav-link" to="/">
             <div class="text-dark">
             <h5>Mekayla Trujillo</h5>
             </div>
             </NavLink>
-            {/* </Navbar.Brand> */}
 
                 <ul class="navbar-nav ml-auto navitem-indent"> 
                 <li class="nav-item">

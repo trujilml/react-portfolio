@@ -2,9 +2,10 @@ import React from 'react';
 
 function Portfolio() {
     return(
-        <section>
+        <section className = "container">
         <div>
             <h2 id="portfolio"> Portfolio </h2>
+            <hr></hr>
         </div>
         
 
@@ -56,7 +57,7 @@ function Portfolio() {
               <a href="https://github.com/trujilml/git-it-done" class="btn">View Project on GitHub<i class="fab fa-github"></i></a>
             </div>
             </a>
-            
+            <hr></hr>
         </div>
         </section>
     );

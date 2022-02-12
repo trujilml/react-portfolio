@@ -87,18 +87,14 @@ nav li {
 
   /* resume */
 
-.resume {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-.resume a {
+.resumelink {
   text-decoration: none;
   list-style: none;
   color: #212529;
 }
+
+/* contact */
+
 
 /* footer */
 .footer {
