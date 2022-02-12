@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e20dc6cd.css",
+    "main.js": "/react-portfolio/static/js/main.c4e70f02.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/trujillom.jpg": "/react-portfolio/static/media/trujillom.810ab559549a707ce321.jpg",
+    "static/media/Trujillo-resume-2022.pdf": "/react-portfolio/static/media/Trujillo-resume-2022.8880df3d663cc77993a3.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.e20dc6cd.css.map": "/react-portfolio/static/css/main.e20dc6cd.css.map",
+    "main.c4e70f02.js.map": "/react-portfolio/static/js/main.c4e70f02.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e20dc6cd.css",
+    "static/js/main.c4e70f02.js"
+  ]
+}
