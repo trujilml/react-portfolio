@@ -24,9 +24,7 @@ function Resume() {
         </p>
         </div>
       </div>
-      
-        {/* // list proficiencies in programs here */}
-        
+      <hr></hr>
         </section>
     );
 }
