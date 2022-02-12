@@ -93,8 +93,28 @@ nav li {
   color: #212529;
 }
 
-/* contact */
+/* portfolio projects */
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: none;
+}
 
+.card-footer {
+  border-top: none;
+}
+
+media-content {
+  align-items: center;
+}
+
+.footcard {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
 
 /* footer */
 .footer {
@@ -125,3 +145,17 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
 }
+
+/* responsive design */
+@media screen and (max-width: 800px) {
+  img.project-image {
+    max-width: 350px;
+    max-height: 250px;
+  }
+
+  .footcard {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
