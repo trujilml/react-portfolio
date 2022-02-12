@@ -1,5 +1,7 @@
 # React Portfolio
 
+![MekaylaTPortfolio](./demo/trujilloportfolio.png)
+
 ## Description
 Mekayla Trujillo's recent portfolio created with React.js. The portfolio highlights an about section about the develop, a portfolio section displaying her latest projects, a contact section, and a resume section complete with her recent resume and list of coding proficiencies.
 
