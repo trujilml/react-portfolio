@@ -21,5 +21,4 @@ This portfolio is deployed and requires no installation and no usage.
 
 ## Usage
 * GitHub Repository - https://github.com/trujilml/react-portfolio
-* Deployed Website - 
-
+* Deployed Website - https://trujilml.github.io/react-portfolio/
