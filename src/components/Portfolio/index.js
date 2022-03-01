@@ -4,6 +4,16 @@ import Project from '../../components/Project';
 const projects = [
   {
     id: 0,
+    title: "FITr",
+    languages: "React, MongoDB, Node.js, JavaScript, Express.js",
+    packages: "Concurrently, Heroku, Mongoose, MongoDB Atlas, JSON webtoken, Apollo-Server-Express, GraphQL",
+    image: "/img/fitr-app.png",
+    description: "FITr is a workout application where fitness enthusiasts can post their workout sessions and share them with their followers. Their workouts are presented in a daily format and in a weekly format where they can review their exercise routine.",
+    repo: "https://github.com/SmasherCoder/fitr",
+    live: "https://fitrfitr.herokuapp.com/"
+  },
+  {
+    id: 1,
     title: "MyBrary",
     languages: "JavaScript, Node.js, Express.js, MySQL, Sequelize, CSS",
     packages: "Flatpickr (Vue.js), Dotenv, Bcrypt",
@@ -13,7 +23,7 @@ const projects = [
     live: "http://mybrary2400.herokuapp.com/"
   },
   {
-    id: 1,
+    id: 2,
     title: "Top 3 Taco Shops",
     languages: "HTML, JavaScript, CSS, jQuery, jQuery UI",
     packages: "Mapbox, Materialize, OpenWeatherMap One Call API",
@@ -23,7 +33,7 @@ const projects = [
     live: "https://trujilml.github.io/top-3-taco-shops/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Budget Tracker Offline",
     languages: "MongoDB, Node.js, JavaScript, Express.js",
     packages: "IndexedDB, Heroku, Mongoose, MongoDB Atlas, Morgan, Compression",
@@ -31,16 +41,6 @@ const projects = [
     description: "Budget Tracker Offline is a budget tracker application that allows for offline access and functionality. Users are able to add their expenses and deposits to their budget with or without a internet connection. Their offline transactions will be updated when brought back from offline.",
     repo: "https://github.com/trujilml/budget-tracker-offline",
     live: "https://ancient-coast-11043.herokuapp.com/"
-  },
-  {
-    id: 3,
-    title: "MVC Tech Blog",
-    languages: "MySQL2, Node.js, JavaScript, Sequelize, Express.js, CSS, HTML",
-    packages: "Handlebars, Express-Session, Connect-Session -Sequelize, JawsDB, Insomnia, Heroku, dotenv, bcrypt, nodemon",
-    image: "/img/mvc-techblog.png",
-    description: "Tech Blog is a blogging website that allows user to publish their own posts about tech, coding, and anything else related to the tech world! This is a CMS-style blog that is built with the MVC (model-view-controller) paradigm with Handlebars.js as the HTML template language, Sequelize as the ORM (object-relational mapping), and the Express-Session npm package for user authentication.",
-    repo: "https://github.com/trujilml/mvc-tech-blog",
-    live: "https://vast-brushlands-11504.herokuapp.com/"
   },
   {
     id: 4,
@@ -54,13 +54,13 @@ const projects = [
   },
   {
     id: 5,
-    title: "Web API Coding Quiz",
-    languages: "JavaScript, CSS, HTML",
-    packages: "Web APIs",
-    image: "/img/webapicodequiz.png",
-    description: "This is a coding quiz meant to quiz you on your knowledge of JavaScript coding consisting of ten multiple-choice questions.",
-    repo: "https://github.com/trujilml/web-api-coding-quiz",
-    live: "https://trujilml.github.io/web-api-coding-quiz/"
+    title: "MVC Tech Blog",
+    languages: "MySQL2, Node.js, JavaScript, Sequelize, Express.js, CSS, HTML",
+    packages: "Handlebars, Express-Session, Connect-Session -Sequelize, JawsDB, Insomnia, Heroku, dotenv, bcrypt, nodemon",
+    image: "/img/mvc-techblog.png",
+    description: "Tech Blog is a blogging website that allows user to publish their own posts about tech, coding, and anything else related to the tech world! This is a CMS-style blog that is built with the MVC (model-view-controller) paradigm with Handlebars.js as the HTML template language, Sequelize as the ORM (object-relational mapping), and the Express-Session npm package for user authentication.",
+    repo: "https://github.com/trujilml/mvc-tech-blog",
+    live: "https://vast-brushlands-11504.herokuapp.com/"
   },
 ];
 

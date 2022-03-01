@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
-import pdf from './Trujillo-resume-2022.pdf';
+import pdf from './trujillo-resume-2022.pdf';
 
 function Resume() {
     return (
@@ -20,7 +20,7 @@ function Resume() {
         <p>
             HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB, <br />
             Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, Handlebars, <br />
-            Webpack, GraphQL, GitHub, Heroku, Insomnia, Apollo Server, Redux <br />
+            Webpack, GraphQL, GitHub, Heroku, Insomnia, Apollo Server, React Redux <br />
         </p>
         </div>
       </div>
