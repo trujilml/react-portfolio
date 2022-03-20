@@ -20,7 +20,8 @@ function Resume() {
         <p>
             HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB, <br />
             Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, Handlebars, <br />
-            Webpack, GraphQL, GitHub, Heroku, Insomnia, Apollo Server, React Redux <br />
+            Webpack, GraphQL, GitHub, Heroku, Insomnia, Apollo Server, Redux <br />
+            Amazon Web Services (AWS), DynamoDB <br />
         </p>
         </div>
       </div>
