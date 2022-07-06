@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
-import pdf from './trujillo-resume-2022.pdf';
+import pdf from './Mekayla-Trujillo-Resume-2022.pdf';
 
 function Resume() {
     return (
