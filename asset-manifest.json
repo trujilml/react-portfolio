@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e20dc6cd.css",
-    "main.js": "/react-portfolio/static/js/main.28738d95.js",
+    "main.js": "/react-portfolio/static/js/main.98bc4595.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/trujillom.jpg": "/react-portfolio/static/media/trujillom.810ab559549a707ce321.jpg",
-    "static/media/trujillo-resume-2022.pdf": "/react-portfolio/static/media/trujillo-resume-2022.991e44bbcc1a0921f74a.pdf",
+    "static/media/Mekayla-Trujillo-Resume-2022.pdf": "/react-portfolio/static/media/Mekayla-Trujillo-Resume-2022.29b155311d105496df0a.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.e20dc6cd.css.map": "/react-portfolio/static/css/main.e20dc6cd.css.map",
-    "main.28738d95.js.map": "/react-portfolio/static/js/main.28738d95.js.map",
+    "main.98bc4595.js.map": "/react-portfolio/static/js/main.98bc4595.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e20dc6cd.css",
-    "static/js/main.28738d95.js"
+    "static/js/main.98bc4595.js"
   ]
 }
